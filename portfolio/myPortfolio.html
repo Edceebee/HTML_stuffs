@@ -10,7 +10,7 @@
 </header>
 <body>
 
-<h1>Edozie Chinonso Anthony (Star Boy)</h1>
+    <h1>Edozie Chinonso Anthony (Star Boy)</h1>
 
 
 <p> email: edceebee@gmail.com </p>
@@ -19,7 +19,7 @@
 
 <h2>Software Engineer @semicolon</h2>
 <hr>
-<i>
+
 <h3>Skills</h3>
 <!--    <table>-->
 <!--        <tr>-->
@@ -51,7 +51,7 @@
     </ul>
 
 <hr>
-</body>
+
 
 <hr>
 <table>
@@ -77,11 +77,65 @@
         </td>
     </tr>
 </table>
-<hr>
-<p>
-    <small>
-        copyright &copy; 2021 live to the fullest
-    </small>
-</p>
 
+<hr>
+
+    <form method="post" action="process.php">
+        <fieldset>
+            <legend>Contact me</legend>
+
+            <p>
+                <label>Name</label>
+                <input type = "text" name = "title" placeholder="Enter full name" />
+            </p>
+            <p>
+                <label>Username</label>
+                <input type = "text" name = "Username"/>
+            </p>
+            <p>
+                <label>phone no.</label>
+                <input type = "tel" name = "phone no"placeholder="1234"/>
+            </p>
+
+            <p>
+                <label>E-mail</label>
+                <input type = "email" name = "e-mail" placeholder="wimp@starboy.mail"/>
+            </p>
+            <p>
+                <label>Password</label>
+                <input type = "password" name = "password"/>
+            </p>
+            <p>
+                <label>Gender</label>
+                <select name = "where">
+                    <option>select gender</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                </select>
+            </p>
+            <p>
+                <label>Country</label>
+                <select name = "where">
+                    <option>Choose a country</option>
+                    <option>Canada</option>
+                    <option>Nigeria</option>
+                    <option>United State</option>
+                    <option>Finland</option>
+                    <option>Ghana</option>
+                </select>
+            </p>
+
+
+            <label>
+                <input type = "submit" value = "submit" />
+                <input type = "reset" />
+            </label>
+        </fieldset>
+    </form>
+    <p>
+        <small>
+            copyright &copy; 2021 live to the fullest
+        </small>
+    </p>
+</body>
 </html>

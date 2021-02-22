@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Input Collector</title>
+</head>
+<body>
+<form method="post" action="process.php">
+    <fieldset>
+        <legend>Kindly fill the form below</legend>
+
+        <p>
+            <label>Name</label>
+            <input type = "text" name = "title" placeholder="Enter full name" />
+        </p>
+        <p>
+            <label>Username</label>
+            <input type = "text" name = "Username"/>
+        </p>
+        <p>
+            <label>Password</label>
+            <input type = "text" name = "Password" placeholder="enter   password"/>
+        </p>
+        <p>
+            <label>E-mail</label>
+            <input type = "text" name = "e-mail" placeholder="wimp@starboy.mail"/>
+        </p>
+
+        <p>
+            <label>Country</label>
+
+            <select name = "where">
+                <option>Choose a country</option>
+                <option>Canada</option>
+                <option>Nigeria</option>
+                <option>United State</option>
+                <option>Finland</option>
+                <option>Ghana</option>
+            </select>
+            <input type = "text" name = "city" list = "cities"/>
+            <datalist id = "cities">
+                <option>Choose your state</option>
+                <option>Calcutta</option>
+                <option>Calgary</option>
+                <option>London</option>
+                <option>Los Angeles </option>
+                <option>Paris </option>
+                <option>Lagos</option>
+            </datalist>
+        </p>
+
+        <label>
+            <input type = "submit" value = "submit" />
+            <input type = "reset" />
+        </label>
+
+    </fieldset>
+</form>
+
+
+</body>
+</html>

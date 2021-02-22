@@ -4,7 +4,7 @@
 /*    border-spacing: 10pt;*/
 /*}*/
 /*table td*/
-/*{*/
+/*,*{*/
 /*    border-collapse: collapse;*/
 /*    border: solid 3pt black;*/
 /*    padding: 10pt;*/
@@ -14,7 +14,7 @@
 caption{
     font-weight: bold;
     padding: 0.25em 0 0.25em 0 ;
-    text-align: left;
+    text-align: center;
     text-transform: uppercase;
     border-top: 1px solid red;
 }
@@ -47,5 +47,16 @@ tbody td{
     padding: 0.75em;
 }
 
+
+tbody tr:hover{           /*code to hover around*/
+    background-color: #9e9e9e;
+    color: black;
+}
+
+
+
+tbody tr:nth-child(even) {
+    backgroung-color: lightgray
+}
 
 
