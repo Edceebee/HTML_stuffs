@@ -1,0 +1,14 @@
+table{
+    border: solid 1pt black;
+    border-collapse: collapse;
+    border-spacing: 10pt;
+}
+table td
+{
+    border-collapse: collapse;
+    border: solid 2pt black;
+    padding: 10pt;
+}
+
+
+

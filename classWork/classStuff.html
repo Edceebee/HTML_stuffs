@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Table</title>
+    <link rel="stylesheet" href=cssFile/style.css>
 </head>
 <body>
 <table>
@@ -10,13 +11,13 @@
         <th>Title</th>
         <th>Artist</th>
         <th>Year</th>
-<!--        <th>Width</th>-->
-<!--        <th>Height</th>-->
+        <th>Width</th>
+        <th>Height</th>
         <th colspan="2">Size (Width x Height)</th>
     </tr>
     <tr>
         <td> The death of marat</td>
-        <td> Jacques Louis David</td>
+        <td rowspan="2" >Jacques Louis David</td>
         <td> 1793 </td>
         <td> 162cm </td>
         <td> 128cm</td>
@@ -33,14 +34,15 @@
 <table>
     <tr>
         <th>Name</th>
-<!--        <th>School</th>-->
-<!--        <th>Profession</th>-->
-<!--        <th>Sport</th>-->
+        <th>School</th>
+        <th>Profession</th>
+        <th>Sport</th>
         <th colspan="3"> (School & Profession & Sport)</th> <!-- code for joining 2 header -->
     </tr>
     <tr>
         <td> Edozie Chinonso </td>
-        <td> Semicolon </td>
+
+        <td>  Semicolon </td>
         <td> Data Analyst </td>
         <td> Football </td>
     </tr>
@@ -49,6 +51,28 @@
         <td> Decagon </td>
         <td> Software Engineer </td>
         <td> Basketball </td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <th>Artist</th>
+        <th>Title</th>
+        <th>Year</th>
+    </tr>
+    <tr>
+       <!-- <td rowspan="no of rows to join"> Name of row </td>-->  <!--code for joining rows-->
+        <td rowspan="3">Falz</td>
+        <td> "wehdone sir"</td>
+        <td> 2016 </td>
+    </tr>
+    <tr>
+        <td> Sweet Boy </td>
+        <td> 2018</td>
+    </tr>
+    <tr>
+        <td>Jeje</td>
+        <td> 2017</td>
     </tr>
 </table>
 </body>
